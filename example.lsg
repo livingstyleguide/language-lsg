@@ -1,0 +1,275 @@
+# Example File
+
+This is an example file to check if the syntax highlighter works well. It
+combines all possible variations. This is not how your document should look
+like :)
+
+
+## Examples
+
+```
+<div>
+  This is a style guide example
+</div>
+```
+
+```
+<div class="***my-class***">
+  This is a style guide example with ***highlighted*** parts.
+</div>
+```
+
+
+## Commands
+
+@command
+@command with-argument
+@command with: option
+
+@command {
+  with block
+}
+@command with-argument {
+  with block
+}
+@command with: option {
+  with block
+}
+
+@command
+  with indented block
+@command with-argument
+  with indented block
+@command with: option
+  with indented block
+
+@command:
+with block ended by new line
+
+@command with-argument:
+with block ended by new line
+
+@command with: option:
+with block ended by new line
+
+
+## Colors
+
+Special support for the `@colors` command:
+
+@colors {
+  $my-color $another-color - $last-color
+}
+
+@colors
+  $my-color $another-color - $last-color
+
+@colors:
+$my-color $another-color - $last-color
+
+
+## CSS
+
+Special support for adding `@css`:
+
+@css {
+  #my-id {
+    border: none;
+    background: #fff url("my-image.png") 47px 11px no-repeat;
+  }
+  @media all and (max-width: 500px) {
+    .my-class {
+      display: none;
+    }
+  }
+}
+
+@css
+  #my-id {
+    border: none;
+    background: #fff url("my-image.png") 47px 11px no-repeat;
+  }
+  @media all and (max-width: 500px) {
+    .my-class {
+      display: none;
+    }
+  }
+
+@css:
+#my-id {
+  border: none;
+  background: #fff url("my-image.png") 47px 11px no-repeat;
+}
+@media all and (max-width: 500px) {
+  .my-class {
+    display: none;
+  }
+}
+
+
+## SCSS
+
+Special support for adding `@scss`:
+
+@scss {
+  @import "my-file";
+  background: red;
+  $height: 11px;
+  #my-id {
+    border: none;
+    background: #fff url("my-image.png") 47px $height no-repeat;
+  }
+  @media all and (max-width: 500px) {
+    .my-class {
+      display: none;
+    }
+  }
+}
+
+@scss
+  @import "my-file";
+  background: red;
+  $height: 11px;
+  #my-id {
+    border: none;
+    background: #fff url("my-image.png") 47px $height no-repeat;
+  }
+  @media all and (max-width: 500px) {
+    .my-class {
+      display: none;
+    }
+  }
+
+@scss:
+@import "my-file";
+background: red;
+$height: 11px;
+#my-id {
+  border: none;
+  background: #fff url("my-image.png") 47px $height no-repeat;
+  @include my-mixin($size: 5px)
+}
+@media all and (max-width: 500px) {
+  .my-class {
+    display: none;
+    @include my-mixin($size: 5px)
+  }
+}
+
+
+## SASS
+
+Special support for adding `@sass`:
+
+@sass {
+  @import "my-file"
+  background: red
+  $height: 11px
+  #my-id
+    border: none
+    background: #fff url("my-image.png") 47px $height no-repeat
+  @media all and (max-width: 500px)
+    .my-class
+      display: none
+      +my-mixin($size: 5px)
+}
+
+@sass
+  @import "my-file"
+  background: red
+  $height: 11px
+  #my-id
+    border: none
+    background: #fff url("my-image.png") 47px $height no-repeat
+  @media all and (max-width: 500px)
+    .my-class
+      display: none
+      +my-mixin($size: 5px)
+
+@sass:
+@import "my-file"
+background: red
+$height: 11px
+#my-id
+  border: none
+  background: #fff url("my-image.png") 47px $height no-repeat
+@media all and (max-width: 500px)
+  .my-class
+    display: none
+    +my-mixin($size: 5px)
+
+
+## Yaml and JSON
+
+@data {
+  "some": "json",
+  "data": 4711,
+  "yes": true,
+  invalid: invalid,
+  "array": [1, 2, 3]
+}
+
+@data
+  "some": "yaml"
+  data: 4711
+  yes: true
+  array:
+    - 1
+    - 2
+    - 3
+
+@data:
+"some": "yaml",
+data: 4711,
+yes: true,
+array:
+  - 1
+  - 2
+  - 3
+
+Remark: In reallity all of them are parsed as Yaml as Yaml is a superset of
+JSON. If you use `{ ... }` the JSON syntax highlighter is used. Yaml is used
+in other cases.
+
+
+## Combined
+
+Commands work within examples:
+
+```
+@haml
+***.my-class***(data-id=id)
+  This is a style guide example
+  = name
+@sass
+  .my-class
+    position: relative
+@data
+  name: Homer
+  id: 4711
+```
+
+
+## Markdown
+
+LSG files are a superset of Markdown. So all Markdown commands are supported.
+Most of them are supported by this syntax highlighter:
+
+Text with **bold**, *italic*, `code`, and [links](http://livingstyleguide.org).
+
+* Unordered
+* Lists
+
+1. Ordered
+2. Lists
+
+```
+Code examples.
+```
+
+# Headline 1
+## Headline 2
+### Headline 3
+#### Headline 4
+##### Headline 5
+###### Headline 6

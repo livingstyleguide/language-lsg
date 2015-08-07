@@ -1,0 +1,29 @@
+{
+  "name": "language-lsg",
+  "version": "0.0.0",
+  "description": "Syntax highlighting for the LivingStyleGuide",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/livingstyleguide/language-lsg.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/livingstyleguide/language-lsg/issues"
+  },
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/livingstyleguide/language-lsg",
+  "keywords": [
+    "language",
+    "lsg",
+    "atom",
+    "editor",
+    "syntax",
+    "livingstyleguide"
+  ]}

@@ -1,0 +1,20 @@
+@import 'ui-variables';
+
+atom-text-editor::shadow .source.lsg {
+  .highlight.lsg {
+    background: mix(#f6fea8, @app-background-color, 20%);
+    border-radius: 3px;
+  }
+  .highlight-end.lsg,
+  .highlight-start.lsg {
+    color: mix(#f6fea8, @app-background-color, 30%);
+  }
+  .heading {
+    font-weight: bold;
+    color: @text-color-highlight;
+  }
+  .link {
+    color: @ui-site-color-2;
+    text-decoration: underline;
+  }
+}
