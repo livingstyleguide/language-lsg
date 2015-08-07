@@ -1,6 +1,6 @@
 {
   "name": "language-lsg",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Syntax highlighting for the LivingStyleGuide",
   "engines": {
     "atom": "*",
@@ -14,10 +14,6 @@
   "bugs": {
     "url": "https://github.com/livingstyleguide/language-lsg/issues"
   },
-  "engines": {
-    "atom": "*",
-    "node": "*"
-  },
   "homepage": "https://github.com/livingstyleguide/language-lsg",
   "keywords": [
     "language",
@@ -26,4 +22,5 @@
     "editor",
     "syntax",
     "livingstyleguide"
-  ]}
+  ]
+}
