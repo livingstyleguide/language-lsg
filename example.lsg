@@ -165,9 +165,11 @@ Special support for adding `@sass`:
   @import "my-file"
   background: red
   $height: 11px
+
   #my-id
     border: none
     background: #fff url("my-image.png") 47px $height no-repeat
+
   @media all and (max-width: 500px)
     .my-class
       display: none
@@ -178,9 +180,11 @@ Special support for adding `@sass`:
   @import "my-file"
   background: red
   $height: 11px
+
   #my-id
     border: none
     background: #fff url("my-image.png") 47px $height no-repeat
+
   @media all and (max-width: 500px)
     .my-class
       display: none

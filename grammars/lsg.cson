@@ -93,7 +93,7 @@
         'name': 'punctuation.definition.parameters.lsg'
       '3':
         'name': 'support.function.lsg'
-    'end': '^(?=[^ ])'
+    'end': '^(?=[^ \\n])'
     'name': 'none.css.lsg'
     'patterns': [
       {
@@ -147,7 +147,7 @@
         'name': 'punctuation.definition.parameters.lsg'
       '3':
         'name': 'support.function.lsg'
-    'end': '^(?=[^ ])'
+    'end': '^(?=[^ \\n])'
     'name': 'none.scss.lsg'
     'patterns': [
       {
@@ -201,7 +201,7 @@
         'name': 'punctuation.definition.parameters.lsg'
       '3':
         'name': 'support.function.lsg'
-    'end': '^(?=[^ ])'
+    'end': '^(?=[^ \\n])'
     'name': 'none.sass.lsg'
     'patterns': [
       {
@@ -258,7 +258,7 @@
         'name': 'support.function.lsg'
       '2':
         'name': 'punctuation.definition.parameters.lsg'
-    'end': '^(?=[^ ])'
+    'end': '^(?=[^ \\n])'
     'name': 'none.css.lsg'
     'patterns': [
       {
@@ -342,7 +342,7 @@
         'name': 'string.argument.lsg'
       '3':
         'name': 'support.function.lsg'
-    'end': '^(?=[^ ])'
+    'end': '^(?=[^ \\n])'
     'endCaptures':
       '0':
         'name': 'support.function.lsg'
@@ -393,7 +393,7 @@
         'name': 'string.argument.lsg'
       '3':
         'name': 'support.function.lsg'
-    'end': '^(?=[^ ])'
+    'end': '^(?=[^ \\n])'
     'endCaptures':
       '0':
         'name': 'support.function.lsg'
