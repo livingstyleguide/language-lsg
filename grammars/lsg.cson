@@ -18,7 +18,7 @@
     ]
   }
   {
-    'begin': '^\\s*([`]{3,})\\s*$'
+    'begin': '^\\s*([`]{3,})\\s*([a-z]+([:\\-_][a-z]+)*)?$'
     'beginCaptures':
       '0':
         'name': 'support.gfm'

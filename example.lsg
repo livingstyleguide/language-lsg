@@ -13,6 +13,12 @@ like :)
 </div>
 ```
 
+``` lang
+<div>
+  This is a style guide example
+</div>
+```
+
 ```
 <div class="***my-class***">
   This is a style guide example with ***highlighted*** parts.
