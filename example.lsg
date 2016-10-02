@@ -266,6 +266,9 @@ LSG files are a superset of Markdown. So all Markdown commands are supported.
 Most of them are supported by this syntax highlighter:
 
 Text with **bold**, *italic*, `code`, and [links](http://livingstyleguide.org).
+Text with __bold__, _italic_, `code`, and [links][lsg].
+
+[lsg]: http://livingstyleguide.org
 
 * Unordered
 * Lists
