@@ -1,13 +1,15 @@
 @import 'ui-variables';
 
 atom-text-editor::shadow .source.lsg {
+  @highlight-background: mix(@text-color-highlight, @app-background-color, 20%);
   .highlight.lsg {
-    background: mix(#f6fea8, @app-background-color, 20%);
+    background: @highlight-background;
     border-radius: 3px;
+    color: @text-color-highlight;
   }
   .highlight-end.lsg,
   .highlight-start.lsg {
-    color: mix(#f6fea8, @app-background-color, 30%);
+    color: mix(@highlight-background, @text-color-highlight, 50%);
   }
   .heading {
     font-weight: bold;
