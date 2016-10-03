@@ -213,33 +213,37 @@ $height: 11px
 
 @data {
   "some": "json",
-  "data": 4711,
-  "yes": true,
-  invalid: invalid,
-  "array": [1, 2, 3]
-}
-
-@data
-  "some": "yaml"
+  some: yaml
   data: 4711
   yes: true
   array:
     - 1
     - 2
     - 3
+  inline-array: [1, 2, 3]
+}
+
+@data
+  "some": "json",
+  some: yaml
+  data: 4711
+  yes: true
+  array:
+    - 1
+    - 2
+    - 3
+  inline-array: [1, 2, 3]
 
 @data:
-"some": "yaml",
-data: 4711,
-yes: true,
+"some": "json",
+some: yaml
+data: 4711
+yes: true
 array:
   - 1
   - 2
   - 3
-
-Remark: In reallity all of them are parsed as Yaml as Yaml is a superset of
-JSON. If you use `{ ... }` the JSON syntax highlighter is used. Yaml is used
-in other cases.
+inline-array: [1, 2, 3]
 
 
 ## Combined
