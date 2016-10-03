@@ -99,7 +99,7 @@
     'name': 'none.scss.lsg'
     'patterns': [
       {
-        'include': 'source.scss'
+        'include': 'source.css.scss'
       }
     ]
   }
@@ -119,7 +119,7 @@
     'name': 'none.scss.lsg'
     'patterns': [
       {
-        'include': 'source.scss'
+        'include': 'source.css.scss'
       }
     ]
   }
@@ -136,7 +136,7 @@
     'name': 'none.scss.lsg'
     'patterns': [
       {
-        'include': 'source.scss'
+        'include': 'source.css.scss'
       }
     ]
   }
