@@ -38,7 +38,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=```|$)'
@@ -55,7 +55,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^\\}$'
@@ -75,7 +75,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=[^ \\n])'
@@ -92,7 +92,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=```|$)'
@@ -109,7 +109,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^\\}$'
@@ -129,7 +129,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=[^ \\n])'
@@ -146,7 +146,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=```|$)'
@@ -163,7 +163,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^\\}$'
@@ -183,7 +183,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=[^ \\n])'
@@ -200,7 +200,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=$|```)'
@@ -217,7 +217,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
     'end': '(?<=^\\})$'
     'name': 'none.css.lsg'
     'patterns': [
@@ -232,7 +232,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'punctuation.definition.parameters.lsg'
+        'name': 'constant.argument.lsg'
     'end': '^(?=[^ \\n])'
     'name': 'none.css.lsg'
     'patterns': [
@@ -247,7 +247,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^\\}$'
@@ -267,7 +267,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=$|```)'
@@ -288,7 +288,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^\\}$'
@@ -309,7 +309,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=[^ \\n])'
@@ -330,14 +330,14 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=$|```)'
     'endCaptures':
       '0':
         'name': 'support.function.lsg'
-    'name': 'command.lsg'
+    'name': 'string.block.lsg'
   }
   {
     'begin': '^(@[\\w\\-_]+)(?: ([^\\n]*[^\\{\\n:]))? *(\\{)$'
@@ -345,14 +345,14 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^\\}$'
     'endCaptures':
       '0':
         'name': 'support.function.lsg'
-    'name': 'command.lsg'
+    'name': 'string.block.lsg'
   }
   {
     'begin': '^(@[\\w\\-_]+)(?: ([^\\n]*[^\\{\\n:]))? *$'
@@ -360,14 +360,14 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
       '3':
         'name': 'support.function.lsg'
     'end': '^(?=[^ \\n])'
     'endCaptures':
       '0':
         'name': 'support.function.lsg'
-    'name': 'command.lsg'
+    'name': 'string.block.lsg'
   }
   {
     'match': '^(@[\\w\\d_-]+)(?: ([^\\n]*[^\\{\\n:]))?$'
@@ -375,7 +375,7 @@
       '1':
         'name': 'support.function.lsg'
       '2':
-        'name': 'string.argument.lsg'
+        'name': 'constant.argument.lsg'
   }
   {
     'include': 'source.gfm'
